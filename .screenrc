@@ -1,0 +1,17 @@
+# ctrl +* key binding has to work in vim under scree
+term xterm-256color
+
+autodetach on 
+
+# we dont need that startup message
+startup_message off 
+
+# always show the status bar on the last line and always on
+hardstatus alwayslastline 
+hardstatus on
+
+# this is an important line which shows all the active sessions in the statusbar
+hardstatus string '%{gk}[%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= w}%?%+Lw%?%? %{g}][%{d}%l%{g}]%{W}'
+
+# Once you have the sessions going, use ctrl-a A to set the session name and it should be more clear to navigate
+
