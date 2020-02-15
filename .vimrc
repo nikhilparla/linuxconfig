@@ -64,5 +64,6 @@ set pastetoggle=<F3>
 syntax on  
 
 " Nikhil mapping the left and right arrows for switching tabs
+" open many vim files with vim -p file1 file2
 nnoremap <C-Left> :tabprevious<CR>                                                                            
 nnoremap <C-Right> :tabnext<CR>
